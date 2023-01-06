@@ -16,7 +16,7 @@ Many Altcoin Address support has been added. Although not checked all of them.
 
 # Example Usage
 ```
-import secp256k1 as ice
+from ice_secp256k1 import secp256k1 as ice
 print('[C]',ice.privatekey_to_address(0, True, 42866423864328564389740932742094))
 : [C] 1EAKqa4DbqnxJ9uLUFrXTMSPd2k3fHzWgr
 print('[U]',ice.privatekey_to_address(0, False, 42866423864328564389740932742094))
